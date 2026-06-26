@@ -427,3 +427,65 @@ body{
     color:#ddd;
     font-size:14px;
 }
+
+/* Mobile */
+
+@media (max-width: 768px){
+
+    .hero{
+        height:400px;
+    }
+
+    .overlay{
+        width:90%;
+        padding:20px;
+    }
+
+    .overlay h1{
+        font-size:60px;
+        line-height:0.95;
+    }
+
+    .overlay p{
+        font-size:18px;
+    }
+
+    .tabs{
+        gap:8px;
+        padding:12px;
+        justify-content:space-between;
+    }
+
+    .tab-btn{
+        font-size:14px;
+        padding:10px 12px;
+    }
+
+    .menu-section,
+    .cakes-section,
+    .gallery-section,
+    .contact-section,
+    .location-section{
+        padding:35px 20px;
+    }
+
+    .cakes-header h2,
+    .gallery-section h2,
+    .contact-section h2,
+    .location-section h2{
+        font-size:32px;
+    }
+
+    .product-card{
+        width:160px;
+    }
+
+    .review-card{
+        margin:20px 10px;
+    }
+
+    iframe{
+        width:100%;
+    }
+
+}
